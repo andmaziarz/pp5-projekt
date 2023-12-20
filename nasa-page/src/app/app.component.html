@@ -1,36 +1,23 @@
 <div id="main">
     <div id="header">
         <div id="earth">
-            <h1>EARTH</h1>
+            <h1><a href="/earth">Earth</a></h1>
         </div>
         <div id="mars">
-            <h1>MARS</h1>
+            <h1><a href="/mars">Mars</a></h1>
         </div>
         <div id="moon">
-            <h1>MOON</h1>
+            <h1><a href="/moon">Moon</a></h1>
         </div>
-        <div id="title">
-            <h1>SPACE KNOWLADGE</h1>
-        </div>
-    </div>
-    <div id="container">
-        <div id="main-form">
-            <form id="questions">
-                <label for="question1">What is your name?</label><br />
-                <input id="name" name="question1" type="text"><br />
-                <label for="question2">How old are you?</label><br />
-                <input id="age" name="question2" type="number"><br />
-                <label for="question3">Are you a student?</label><br />
-                <select id="is-student" name="question3">
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                </select><br />
-                <button id="btn" class="submit">Submit</button>            
-            </form>
-        </div>
-        <div id="main-time">
-            <div id="clock">TU MA BYC ZEGAR</div>
+        <div id="title" class="center">
+            <h1><a href="/">
+                <span>Space Knowladge</span>
+                <span>Space Knowladge</span>
+                <span>Space Knowladge</span>
+            </a>
+            </h1>
         </div>
     </div>
+    <router-outlet></router-outlet>
 </div>
-<router-outlet></router-outlet>
+
