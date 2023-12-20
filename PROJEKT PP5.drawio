@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" modified="2023-11-16T13:47:00.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="ub4tT7yy0oL6Cpp0VXi8" version="22.1.2" type="device">
+  <diagram name="Strona-1" id="xqzo9iiPTI1pgr8HfbAr">
+    <mxGraphModel dx="604" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="720" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="720" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-7" value="EARTH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-8" value="MARS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-9" value="TITLE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-10" value="MOON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="720" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-17" value="WELCOME" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="270" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-19" value="TIME ON EARTH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-20" value="CIEMNE TŁO NP KOSMOS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-21" value="EARTH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1710" width="720" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1160" width="720" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-25" value="MARS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-26" value="MOON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1754" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="850" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-28" value="PICTURE OF LOCATION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="730" width="245" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-30" value="FORMULARZ&lt;br&gt;2/3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="747.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="730" width="325" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-32" value="https://www.aerisweather.com/?gclid=Cj0KCQiAmNeqBhD4ARIsADsYfTffAOcK_gZFffCckJm9h1tRMnlumn9cgQDUvO2nS-zyVQvDu4c5-7IaAnBPEALw_wcB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-36" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="465" y="850" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-37" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="635" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-38" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="945" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-39" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="635" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-40" value="QUALITY OF AIR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="765" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-41" value="TEMPERATURA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="765" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.387;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pbCASc1pe3ggSqfMiHUb-36" target="pbCASc1pe3ggSqfMiHUb-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-45" value="ALERTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="940" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-46" value="PICTURE OF CONDIDION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="940" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-47" value="HUMIDITY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="845" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-48" value="SPEED OF WIND" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="840" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-49" value="TŁO ZDJĘCIE ZIEMI Z KOSMOSU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1270" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1270" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1380" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1380" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1500" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1500" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-56" value="CHECK YOURSELF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-57" value="WHERE IS DEEPEST CANYON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1280" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-58" value="MARS O3/3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-59" value="EARTH O" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-60" value="ANSWEAR+ INFO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1325" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-63" value="https://mars.nasa.gov/#red_planet/5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1160" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-64" value="TŁO PICTURE FROM MARS API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2170" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-66" value="FOOTER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="2170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-68" value="OGÓLNE INFORMACJE O KSIĘŻYCU ZDJĘCIA ITP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1820" width="430" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCASc1pe3ggSqfMiHUb-69" value="FORMULARZ Z INFORMACJAMI 1/3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
