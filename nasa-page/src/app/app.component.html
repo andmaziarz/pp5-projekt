@@ -1,13 +1,52 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<div class="header"><p>Elo</p>
+<div id="main">
+    <div id="header">
+        <div id="earth">
+            <h1>EARTH</h1>
+        </div>
+        <div id="mars">
+            <h1>MARS</h1>
+        </div>
+        <div id="moon">
+            <h1>MOON</h1>
+        </div>
+        <div id="title">
+            <h1>SPACE KNOWLADGE</h1>
+        </div>
+    </div>
+    <div id="container">
+        <div id="main-form">
+            <form id="questions">
+                <label for="question1">What is your name?</label><br />
+                <input id="name" name="question1" type="text" placeholder="Type your name here..."><br />
+                <label for="question2">How old are you?</label><br />
+                <input id="age" name="question2" type="number" placeholder="Type your age here..."><br />
+                <label for="question3">Are you a student?</label><br />
+                <select id="is-student" name="question3">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select><br />
+                <button id="btn" class="submit">Submit</button>            
+            </form>
+        </div>
+        <div id="main-time">
+            <p>TU POWSTAJE ZEGAR</p>
+            <p>PLEASE WAIT</p>
+        </div>
+    </div>
 </div>
+<script>
+let btn = document.getElementById('btn');
+btn.addEventListener("click", function() {
+  btn.setAttribute('class', 'submit process');
+  btn.innerHTML = 'Processing';
+  setTimeout(()=>{
+     btn.setAttribute('class', 'submit submitted');
+     btn.innerHTML = `
+     <span class="tick">&#10004;</span>
+     Submitted
+     `;
+  },5000);
+});
+</script>
 <router-outlet></router-outlet>
-<footer></footer>
+>>>>>>> 7bc22a905da61ffdf920f3d2f4b37fbee4cf9fbd
