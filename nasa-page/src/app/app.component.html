@@ -17,9 +17,9 @@
         <div id="main-form">
             <form id="questions">
                 <label for="question1">What is your name?</label><br />
-                <input id="name" name="question1" type="text" placeholder="Type your name here..."><br />
+                <input id="name" name="question1" type="text"><br />
                 <label for="question2">How old are you?</label><br />
-                <input id="age" name="question2" type="number" placeholder="Type your age here..."><br />
+                <input id="age" name="question2" type="number"><br />
                 <label for="question3">Are you a student?</label><br />
                 <select id="is-student" name="question3">
                     <option value="yes">Yes</option>
@@ -29,24 +29,8 @@
             </form>
         </div>
         <div id="main-time">
-            <p>TU POWSTAJE ZEGAR</p>
-            <p>PLEASE WAIT</p>
+            <div id="clock">TU MA BYC ZEGAR</div>
         </div>
     </div>
 </div>
-<script>
-let btn = document.getElementById('btn');
-btn.addEventListener("click", function() {
-  btn.setAttribute('class', 'submit process');
-  btn.innerHTML = 'Processing';
-  setTimeout(()=>{
-     btn.setAttribute('class', 'submit submitted');
-     btn.innerHTML = `
-     <span class="tick">&#10004;</span>
-     Submitted
-     `;
-  },5000);
-});
-</script>
 <router-outlet></router-outlet>
->>>>>>> 7bc22a905da61ffdf920f3d2f4b37fbee4cf9fbd

@@ -20,6 +20,12 @@ figure, blockquote, dl, dd {
   margin-block-end: 0;
 }
 
+
+body{
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+}
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
 ol[role='list'] {
@@ -71,8 +77,5 @@ textarea:not([rows]) {
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7bc22a905da61ffdf920f3d2f4b37fbee4cf9fbd
+
