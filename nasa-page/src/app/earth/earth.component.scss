@@ -1,0 +1,39 @@
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1;
+    color: white;
+    padding-top: 7rem;
+}
+#left-conatiner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Consolas';
+}
+#picture-of-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'Consolas';
+    padding-top: 8rem;
+}
+#main-data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    font-size: 2rem;
+    font-family: 'Consolas';
+}
+.data{
+    box-sizing: border-box;
+    padding-bottom: 4rem;
+}
