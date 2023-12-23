@@ -1,5 +1,4 @@
 function updateTime() {
-    console.log("TEST");
     let date = new Date(); 
     let hh = date.getHours();
     let mm = date.getMinutes();

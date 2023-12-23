@@ -33,7 +33,8 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "src/assets/clock.js"
+              "src/assets/clock.js",
+              "src/assets/weather_data.js"
             ]
           },
           "configurations": {

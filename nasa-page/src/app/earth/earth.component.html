@@ -2,13 +2,12 @@
     <div id="left-container">
         <div id="form-main">
             <form id="location" class="left">    
-                <label for="question-location">Choose city live data</label><br />                   
-                <input list="location-picker" id="location-pick" name="location-q"/>
-                <datalist id="location-picker">
-                    <option value="Cracow"></option>
-                    <option value="Warsaw"></option>
-                    <option value="New York"></option>
-                </datalist>
+                <label for="city">Choose city live data</label><br />                   
+                <select name="city" id="location-picker" (change)="weather_data()">
+                    <option value="Cracow">Cracow</option>
+                    <option value="Warsaw">Warsaw</option>
+                    <option value="New York">New York</option>
+                </select>
             </form>
         </div>
         <div id="picture-of-location" class="left">
