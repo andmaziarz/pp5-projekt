@@ -3,10 +3,13 @@
         <div id="form-main">
             <form id="location" class="left">    
                 <label for="city">Choose city live data</label><br />                   
-                <select name="city" id="location-picker" (change)="weather_data()">
-                    <option value="Cracow">Cracow</option>
-                    <option value="Warsaw">Warsaw</option>
-                    <option value="New York">New York</option>
+                <select name="city" id="location1" (change)="weather_data($event)" >
+                    <option value="" selected>Select City...</option>
+                    <option value="kraków">Cracow</option>
+                    <option value="warszawa">Warsaw</option>
+                    <option value="nowy jork">New York</option>
+                    <option value="biłgoraj">Biłgoraj👑</option>
+                    <option value="ciosmy">Ciosmy</option>
                 </select>
             </form>
         </div>
@@ -15,11 +18,13 @@
         </div>
     </div>    
     <div id="main-data">
-        <div class="data">Temperatura</div>
-        <div class="data">Quality of air</div>
-        <div class="data">Speed of wind</div>
-        <div class="data">Humidity</div>
-        <div class="data">Picture of condidion</div>
-        <div class="data">Alerts</div>
+        <div id="date" class="data">Current date:<br> {{date}}</div>
+        <div id="temperatura" class="data">Current temperature:<br> {{tem}}&deg;C</div>
+        <div id="maxtemp" class="data">Max temperature:<br> {{maxtem}}&deg;C</div>
+        <div id="mintemp" class="data">Min temperature:<br> {{mintem}}&deg;C</div>
+        <div id="speed" class="data">Wind speed:<br> {{windSpeed}}km/h</div>
+        <div id="humidity" class="data">Humidity:<br> {{humidity}}%</div>
+
+       
     </div>
 </div>
