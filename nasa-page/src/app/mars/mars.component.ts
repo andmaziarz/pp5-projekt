@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './mars.component.scss'
 })
 export class MarsComponent {
+  score: number = 0;
+  answered: number = 0;
+
   constructor(){
     document.body.style.backgroundImage = "url('assets/mars.jpg')";
     document.body.style.backgroundPosition = "center center";
@@ -17,6 +20,25 @@ export class MarsComponent {
   }
   ngOnDestroy(){
     document.body.style.backgroundImage = "none";
+  }
+  disableSelect(event: Event, correctAnswer: string){
+    const selectElement = event.target as HTMLSelectElement;
+    selectElement.disabled = true;
+    this.answered++;
+  
+    if(selectElement.value === correctAnswer){
+      this.score++;
+      selectElement.style.backgroundColor = "#4CAF50"
+    }
+    else{
+      selectElement.style.backgroundColor = "#FF5252";
+    }
+    if(this.answered == 6){
+      const scoreEle = document.getElementById("score");
+      if(scoreEle){
+        scoreEle.textContent = "Your final score is: " + this.score + "/6";
+      }
+    }
   }
 
 }
