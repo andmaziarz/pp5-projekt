@@ -1,1 +1,38 @@
-<p>moon works!</p>
+<div id="container">
+    <div id="title">GO AHEAD AND CHECK OUT WHAT INTERESTING FACTS ARE RELATED TO THE MOON</div>
+    <div id="facts">
+        <div class="info" id="info1">
+            <button (click)="toggleInfo($event, 'info1')">1. The Moon is Earth’s only natural satellite</button> 
+            <div id="content1" style="display:none;" class="text">
+                A satellite is an object that orbits another object. The Moon orbits the Earth making it a satellite.</div>
+        </div>
+        <div class="info" id="info2">
+            <button (click)="toggleInfo($event, 'info2')">2. The Moon takes about one month to orbit Earth.</button>
+            <div id="content2" style="display:none;" class="text">
+                It takes 27.3 days for the Moon to travel all the way around the Earth</div>
+        </div>
+        <div class="info" id="info3">
+            <button (click)="toggleInfo($event, 'info3')">3. The Moon is a lot smaller than The Sun</button>
+            <div id="content3" style="display:none;" class="text">
+                When we are standing on Earth the Moon and Sun look like they are the same size. In fact the Moon is 400 times smaller than the Sun but appears the same size because it is a lot closer to Earth.</div>
+        </div>
+        <div class="info" id="info4">
+            <button (click)="toggleInfo($event, 'info4')">4. The Moon was made when a rock smashed into Earth</button>
+            <div id="content4" style="display:none;" class="text">
+                We don’t know for sure how the moon got here but most scientists think the Moon was created when a rock the size of Mars slammed into Earth.</div>
+        </div>
+        <div class="info" id="info5">
+            <button (click)="toggleInfo($event, 'info5')">5. Earth’s Moon is the only place beyond Earth where humans have set foot</button>
+            <div id="content5" style="display:none;" class="text">
+                Neil Armstrong and Edwin “Buzz” Aldrin were the first humans to set foot on the moon in July 1969. In total 12 people have been on the Moon.
+            </div>
+        </div>
+        <div class="info" id="info6">
+            <button (click)="toggleInfo($event, 'info6')">6. The Moon is getting further away</button>
+            <div id="content6" style="display:none;" class="text">
+                The Moon started out around ten times closer to the Earth than it is now and it’s still moving further away by 3.78cm a year. That’s roughly the same rate at which your fingernails grow.
+            </div>
+        </div>
+    </div>
+    <div id="inquiry">OCEŃ NAS</div>
+</div>

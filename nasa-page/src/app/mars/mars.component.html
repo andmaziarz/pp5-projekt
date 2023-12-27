@@ -63,5 +63,14 @@
             </form>
         </div>
     </div>    
-    <div id="score">Your score is: {{this.score}}</div>
+    <div id="footer">
+        <div id="score" class="footer-div">
+            Your score is: {{this.score}}
+        </div>
+        <div id="reset" class="footer-div">
+            <form id="reset1">
+                <button type="submit" id="btn" (click)="resetQuiz()">Reset</button>
+            </form>
+        </div>
+    </div>    
 </div>

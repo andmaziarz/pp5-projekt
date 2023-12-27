@@ -40,5 +40,20 @@ export class MarsComponent {
       }
     }
   }
+  resetQuiz(){
+    this.score = 0;
+    this.answered = 0;
+
+    const selects = document.querySelectorAll("select");
+    selects.forEach((select: HTMLSelectElement) => {
+      select.style.backgroundColor = '';
+      select.disabled = false;
+    });
+
+    const scoreElement = document.getElementById("score");
+    if(scoreElement){
+      scoreElement.textContent = "Your score is: ";
+    }
+  }
 
 }

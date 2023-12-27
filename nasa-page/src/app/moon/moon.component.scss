@@ -1,0 +1,52 @@
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 20% 60% 20%;
+    color: white;
+    padding-top: 0.3rem;
+    font-family: Consolas;
+}
+#title{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+#facts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    row-gap: 1.5rem;
+    font-size: 1.6rem;
+    font-family: 'Consolas';
+    padding-top: 3rem;
+}
+#facts button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    outline: none;
+
+    &:hover {
+      text-decoration: underline; 
+      cursor: pointer;
+    }
+  }
+#facts 
+.info{
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+.text{
+    font-size: 1rem;
+}
+#inquiry{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}

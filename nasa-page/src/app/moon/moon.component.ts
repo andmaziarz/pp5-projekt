@@ -8,5 +8,25 @@ import { Component } from '@angular/core';
   styleUrl: './moon.component.scss'
 })
 export class MoonComponent {
+  constructor(){
+    document.body.style.backgroundImage = "url('assets/moon.jpg')";
+    document.body.style.backgroundPosition = "center center";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundAttachment = "fixed";
+    document.body.style.backgroundSize = "cover";
+  }
+  ngOnDestroy(){
+    document.body.style.backgroundImage = "none";
+  }
+  toggleInfo(event: Event,infoId: string): void {
+    const contentId: string = 'content' + infoId.slice(-1);
+    const content: HTMLElement | null = document.getElementById(contentId);
 
-}
+    if (content) {
+        if (content.style.display === 'none' || content.style.display === '') {
+            content.style.display = 'block';
+        } else {
+            content.style.display = 'none';
+        }
+    }
+}}
