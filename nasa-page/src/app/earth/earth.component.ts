@@ -15,6 +15,8 @@ export class EarthComponent {
   public mintem!: string;
   public humidity!: string;
   public windSpeed!: string;
+  public imageUrl!: string;
+
   constructor(){
     document.body.style.backgroundImage = "url('assets/earth.jpeg')";
     document.body.style.backgroundPosition = "center center";
@@ -44,7 +46,10 @@ export class EarthComponent {
       this.humidity = data.days[0].humidity;
       this.windSpeed = data.days[0].windspeed;
       console.log(choosen_city)
+      this.imageUrl = `/assets/${choosen_city}.jpg`;
+      document.getElementById("zdjęcie")?.setAttribute("src", this.imageUrl);
     })
+
 }
 }
 

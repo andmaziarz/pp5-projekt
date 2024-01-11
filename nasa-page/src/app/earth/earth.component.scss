@@ -32,7 +32,7 @@
     align-items: center;
     font-size: 1.5em;
     font-family: 'Consolas';
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 #main-data{
     display: grid;
@@ -45,3 +45,18 @@
     box-sizing: border-box;
     padding-bottom: 4rem;
 }
+#zdjęcie{
+    display: none;
+}
+#zdjęcie[src]{
+    display: block;
+    min-width: 30rem;
+    max-width: 30rem;
+    width: 100%;
+    min-height: 20rem;
+    max-height: 20rem;
+    height: 100%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
