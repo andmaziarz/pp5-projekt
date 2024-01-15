@@ -2,67 +2,48 @@
     <div id="title">CHECK YOURSELF</div>
     <div id="main">
         <div class="quiz" id="quiz1">
-            <form id="questions1">
+            <form id="questions1" (change)="disableSelect($event, 'mars')">
                 <label for="1">Where is the higher mountain?</label><br>
-                <select id="1" id="higher" (change)="disableSelect($event, 'mars')">
-                    <option value="" disabled selected>Select answer...</option>
-                    <option value="earth">Earth</option>
-                    <option value="mars">Mars</option>
-                </select>
+                <input type="radio" id="1" name="higher" value="earth"> Earth
+                <input type="radio" id="2" name="higher" value="mars"> Mars
             </form>
         </div>
         <div class="quiz" id="quiz2">
-            <form id="questions2">
+            <form id="questions2" (change)="disableSelect($event, 'mars')">
                 <label for="2">Where the atmosphere is thinner?</label><br>
-                <select id="2" id="atmosphere" (change)="disableSelect($event, 'mars')">
-                    <option value="" disabled selected >Select answer...</option>
-                    <option value="earth">Earth</option>
-                    <option value="mars">Mars</option>
-                </select>
+                <input type="radio" id="3" name="atmosphere" value="earth" > Earth
+                <input type="radio" id="4" name="atmosphere" value="mars"> Mars
             </form>
         </div>
         <div class="quiz" id="quiz3">
-            <form id="questions3">
+            <form id="questions3" (change)="disableSelect($event, 'mars')">
                 <label for="3">On which planet does a day last longer?</label><br>
-                <select id="3" id="longer-day" (change)="disableSelect($event, 'mars')">
-                    <option value="" disabled selected>Select answer...</option>
-                    <option value="earth">Earth</option>
-                    <option value="mars">Mars</option>
-                </select>
+                <input type="radio" id="5" name="longer-day" value="earth"> Earth
+                <input type="radio" id="6" name="longer-day" value="mars"> Mars
             </form>
         </div>
         <div class="quiz" id="quiz4">
-            <form id="questions4">
-                <label for="4">Will a radio signal reach from Earth to Mars at its closest position in less than 5 minutes?
-                </label><br>
-                <select id="4" id="radio" (change)="disableSelect($event, 'yes')">
-                    <option value="" disabled selected>Select answer...</option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                </select>
+            <form id="questions4"  (change)="disableSelect($event, 'yes')">
+                <label for="4">Will a radio signal reach from Earth to Mars at its closest position in less than 5 minutes?</label><br>
+                <input type="radio" id="7" name="radio" value="yes"> Yes
+                <input type="radio" id="8" name="radio" value="no"> No
             </form>
         </div>
         <div class="quiz" id="quiz5">
-            <form id="questions5">
+            <form id="questions5" (change)="disableSelect($event, 'yes')">
                 <label for="5">Is there water on Mars?</label><br>
-                <select id="5" id="water" (change)="disableSelect($event, 'yes')">
-                    <option value="" disabled selected>Select answer...</option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                </select>
+                <input type="radio" id="9" name="water" value="yes" > Yes
+                <input type="radio" id="10" name="water" value="no" > No
             </form>
         </div>
         <div class="quiz" id="quiz6">
-            <form id="questions6">
+            <form id="questions6" (change)="disableSelect($event, 'earth')">
                 <label for="6">Which planet formed faster?</label><br>
-                <select id="6" id="faster" (change)="disableSelect($event, 'earth')">
-                    <option value="" disabled selected>Select answer...</option>
-                    <option value="earth">Earth</option>
-                    <option value="mars">Mars</option>
-                </select>
+                <input type="radio" id="11" name="faster" value="earth"> Earth
+                <input type="radio" id="12" name="faster" value="mars" > Mars
             </form>
         </div>
-    </div>    
+    </div>
     <div id="footer">
         <div id="score" class="footer-div">
             Your score is: {{this.score}}
@@ -72,5 +53,11 @@
                 <button type="submit" id="btn" (click)="resetQuiz()">Reset</button>
             </form>
         </div>
-    </div>    
+    </div>
+    <div id="difficulty-slider" class="footer-div">
+        <label for="difficulty">Rate the level of difficulty:</label>
+        <input type="range" id="difficulty" name="difficulty" min="1" max="10" step="1" (input)="onDifficultyChange($event)">
+        <p id="difficulty-label">{{ difficultyLabel }}</p>
+      </div>
 </div>
+
