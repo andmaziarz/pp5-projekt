@@ -57,4 +57,28 @@ export class MarsComponent {
     }
   }
 
+  onDifficultyChange(event: Event) {
+    const inputElement = event.target as HTMLInputElement;
+    this.difficultyValue = parseInt(inputElement.value, 10);
+    this.updateDifficultyLabel();
+  }
+
+  updateDifficultyLabel() {
+    this.difficultyLabel = this.getDifficultyLabel(this.difficultyValue);
+  }
+
+  getDifficultyLabel(value: number): string {
+    if (value == 1) {
+      return 'Very easy';
+    } else if (value == 2) {
+      return 'Easy';
+    } else if (value == 3) {
+      return 'Medium';
+    } else if (value == 4) {
+      return 'Hard';
+    } else {
+      return 'Very hard';
+    }
+  }
+
 }

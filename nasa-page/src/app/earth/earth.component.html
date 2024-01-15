@@ -1,15 +1,19 @@
 <div id="container">
     <div id="left-container">
         <div id="form-main">
-            <form id="location" class="left">    
-                <label for="city">Choose city live data</label><br />                   
-                <select name="city" id="location1" (change)="weather_data($event)" >
-                    <option value="" selected>Select City...</option>
-                    <option value="kraków">Cracow</option>
-                    <option value="warszawa">Warsaw</option>
-                    <option value="nowy jork">New York</option>
-                    <option value="biłgoraj">Biłgoraj</option>
-                </select>
+            <form id="location" class="left" (change)="weather_data($event)">    
+                <label for="city">Choose city live data</label><br />                
+                <input type="radio" name="city" id="location1" value="kraków">
+                <label for="location1">Cracow</label><br>
+
+                <input type="radio" name="city" id="location2" value="warszawa">
+                <label for="location2">Warsaw</label><br>
+
+                <input type="radio" name="city" id="location3" value="nowy jork">
+                <label for="location3">New York</label><br>
+
+                <input type="radio" name="city" id="location4" value="biłgoraj">
+                <label for="location4">Biłgoraj</label><br>
             </form>
         </div>
         <div id="picture-of-location" class="left">
