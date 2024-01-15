@@ -11,7 +11,7 @@ export class MarsComponent {
   score: number = 0;
   answered: number = 0;
   difficultyValue: number = 5;
-  difficultyLabel: string = 'Medium';
+  difficultyLabel: string = 'Medium'; 
   constructor(){
     document.body.style.backgroundImage = "url('assets/mars.jpg')";
     document.body.style.backgroundPosition = "center center";
@@ -56,7 +56,6 @@ export class MarsComponent {
       scoreElement.textContent = "Your score is: ";
     }
   }
-
   onDifficultyChange(event: Event) {
     const inputElement = event.target as HTMLInputElement;
     this.difficultyValue = parseInt(inputElement.value, 10);
@@ -80,5 +79,8 @@ export class MarsComponent {
       return 'Very hard';
     }
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3195e635b90ebbfbddbbc0de288a7f3b2ae28c30
 }
