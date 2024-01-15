@@ -11,7 +11,7 @@ export class MarsComponent {
   score: number = 0;
   answered: number = 0;
   difficultyValue: number = 5;
-  difficultyLabel: string = 'Medium'; 
+  difficultyLabel: string = 'Very hard'; 
   constructor(){
     document.body.style.backgroundImage = "url('assets/mars.jpg')";
     document.body.style.backgroundPosition = "center center";
@@ -79,8 +79,4 @@ export class MarsComponent {
       return 'Very hard';
     }
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3195e635b90ebbfbddbbc0de288a7f3b2ae28c30
 }
