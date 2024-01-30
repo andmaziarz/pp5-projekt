@@ -1,134 +1,137 @@
-html{
+html {
     height: 100%;
-}
-body{
+  }
+  
+  body {
     min-height: 100vh;
-}
-#header{
+  }
+  
+  #header {
     width: 100%;
     height: 11rem;
     display: grid;
     grid-template-columns: 18rem 18rem 18rem auto;
     grid-template-rows: 1;
-    background-color: rgba(0,0,0, 0.5)
-
-}   
-
-#header a:link{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  #header a:link {
     text-decoration: none;
-}
-
-#earth, #mars, #moon, #title{
+  }
+  
+  #earth, #mars, #moon, #title {
     font-size: 1.2rem;
     font-family: "Consolas";
     display: grid;
     align-items: center;
     justify-content: center;
     color: white;
-}
-
-.center{
-    position:absolute;
-    top:13%;
+  }
+  
+  .center {
+    position: absolute;
+    top: 13%;
     right: 20%;
-    transform:prespective(1000px) translate(-50%,-50%);
-    transform:skewY(15deg);
-    transition:0.5s;
+    transform: perspective(1000px) translate(-50%, -50%);
+    transform: skewY(15deg);
+    transition: 0.5s;
+  
+    &:hover {
+      transform: perspective(1000px) translate(-50%, -50%);
+      transform: skewY(0deg);
+    }
+  
+    h1 span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      color: #fff;
+      transform-style: preserve-3d;
+      transition: 0.8s;
+  
+      &:nth-child(1) {
+        clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+      }
+  
+      &:nth-child(2) {
+        color: #5e17eb;
+        transform: translate(-50%, -50%) skewX(-60deg);
+        left: -38px;
+        clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
+      }
+  
+      &:nth-child(3) {
+        transform: translate(-50%, -50%) skewY(0deg);
+        left: -76px;
+        clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
+      }
+    }
+  
+    &:hover {
+      h1 span:nth-child(2),
+      h1 span:nth-child(3) {
+        transform: translate(-50%, -50%) skewX(0deg);
+        left: 0;
+        color: #fff;
+      }
+    }
   }
   
-  .center:hover{
-    transform:prespective(1000px) translate(-50%,-50%);
-    transform:skewY(0deg);
-  }
-  
-  .center h1 span{
-    position:absolute;
-    top:0;
-    left:0;
-    transform:translate(-50%,-50%);
-    margin:0;
-    padding:0;
-    text-transform:uppercase;
-    font-size:1.5em;
-    color:#fff;
-    transform-style:preserve-3d;
-    transition:0.8s;
-  }
-  .center h1 span:nth-child(1){
-    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-  }
-  
-  
-  
-  .center h1 span:nth-child(2){
-    color:#5E17EB;
-    transform:translate(-50%,-50%) skewX(-60deg);
-    left:-38px;
-    clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
-  }
-  
-  .center h1 span:nth-child(3){
-    transform:translate(-50%,-50%) skewY(0deg);
-    left:-76px;
-    clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
-  }
-  
-  .center:hover h1 span:nth-child(2), 
-  .center:hover h1 span:nth-child(3){
-    transform:translate(-50%,-50%) skewX(0deg);
-    left:0;
-    color:#fff;
-  }
-
-
-#container{
+  #container {
     width: 100%;
     display: grid;
     grid-template-columns: 55% 45%;
     grid-template-rows: 1;
     color: white;
     padding-top: 7rem;
-}
-#main-form{
+  }
+  
+  #main-form {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#main-time{
+  }
+  
+  #main-time {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 22rem;
-    left: 60rem
-    
-}
-#questions input{
+    left: 60rem;
+  }
+  
+  #questions input {
     color: black;
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid rgba(255, 255, 255, 0.5);
     margin: 0.25rem 0 2rem 0;
     width: 35rem;
-}
-
-#questions select{
+  }
+  
+  #questions select {
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid rgba(255, 255, 255, 0.5);
     margin: 0.25rem 0 2rem 0;
-}
-
-#main-form{
+  }
+  
+  #main-form {
     font-size: 1.5rem;
     font-family: 'Consolas';
     text-align: left;
-}
-
-#clock{
+  }
+  
+  #clock {
     font-size: 3rem;
     font-family: "Consolas";
-}
-
-button{
+  }
+  
+  button {
     background: #000;
     border: 0;
     color: #fff;
@@ -137,51 +140,50 @@ button{
     font-size: 1.5rem;
     letter-spacing: 3px;
     position: relative;
-    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     cursor: pointer;
     display: block;
     margin: 0 auto;
     float: right;
-}
-
-button::after,
-button::before{
-content: "";
-    position: absolute;
-    top: 50%;
-    right: 0px;
-    transform: translateY(-50%);
-    opacity: 0;
-    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-button::after{
-    width: 30px;
-    height: 1px;
-    background: white;
-    transform: translateX(-3px);
-    margin-top: 0px;
-}
-
-button::before{
-    content: "";
-    transform: rotate(-135deg) translateX(50%);
-    width: 11px;
-    height: 11px;
-    background: transparent;
-    border-left: 1px solid white;
-    border-bottom: 1px solid white;
-    margin-top: -1px;
-}
-button:hover{
-    padding: 15px 60px 15px 20px;
-}
-
-button:hover::after,
-button:hover::before{
-    opacity: 1;
-    right: 15px;
-}
-.alert{
-    font-family: "Consolas";
-}
+  
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      transform: translateY(-50%);
+      opacity: 0;
+      transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+  
+    &::after {
+      width: 30px;
+      height: 1px;
+      background: white;
+      transform: translateX(-3px);
+      margin-top: 0px;
+    }
+  
+    &::before {
+      content: "";
+      transform: rotate(-135deg) translateX(50%);
+      width: 11px;
+      height: 11px;
+      background: transparent;
+      border-left: 1px solid white;
+      border-bottom: 1px solid white;
+      margin-top: -1px;
+    }
+  
+    &:hover {
+      padding: 15px 60px 15px 20px;
+  
+      &::after,
+      &::before {
+        opacity: 1;
+        right: 15px;
+      }
+    }
+  }
+  
